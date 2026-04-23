@@ -19,5 +19,7 @@ h1{
 
 #WhiteCanvas{
     border-inline-color: white;
-    position: inherit;
+    
+    x: 50%; 
+    y: 50%;
 }
