@@ -1,16 +1,16 @@
 const canvas = document.getElementById("WhiteCanvas");
 const context = canvas.getContext("2d");
 
-const rectanWidth  = 40;
-const rectanHeight = 70;
+const rectanWidth  = 90;
+const rectanHeight = 130;
 
 const targetFPS = 60;
 
 let timeLast = 0;
 
-let rectanX = 320;
+let rectanX = 480;
 let rectanY = 0;
-let rectanSpeed = 125;
+let rectanSpeed = 155;
 
 class Vector2
 {
